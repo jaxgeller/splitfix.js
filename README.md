@@ -47,7 +47,6 @@ let container = '.container';
 new SplitFix(elToBeFixed, splitContent, container);
 ```
 
-
 ### Use
 
 Since this is a specific effect, the way in which it's implemented is opinionated. HTML setup needs to be like so
