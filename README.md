@@ -6,10 +6,10 @@ SplitFix.js is a slim, performant, ES6 module, that implements a split view fixe
 
 `npm install splitfix.js` or include `dist.min.js` above.
 
-### Example
+### Use and Example
 
 SplitFix makes some quick assumptions about the layout of your site.
-You need a containing element with left and right splits. The simplest form looks like this,
+You need a containing element with left and right splits. A simple example looks like this,
 
 Html Setup
 
@@ -40,8 +40,8 @@ JS Setup
 ```javascript
 import SplitFix from 'splitfix.js';
 
-let elToBeFixed = '.is-fixed';
-let splitContent = '.split-content';
+let elToBeFixed = '.fixed';
+let splitContent = '.not-fixed';
 let container = '.container';
 
 new SplitFix(elToBeFixed, splitContent, container);
