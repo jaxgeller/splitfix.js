@@ -49,7 +49,7 @@ new SplitFix(elToBeFixed, splitContent, container);
 
 ### Use
 
-Since this is a specific effect, the way in which it's implemented is opinionated. HTML setup needs to be like so
+Since this is a specific effect, the way in which it's implemented is opinionated. The very least needs to be implemented with a container, left, and right sections.
 
 ```html
 <div class="container">
@@ -58,7 +58,7 @@ Since this is a specific effect, the way in which it's implemented is opinionate
 </div>
 ```
 
-Where `.container` has a position of `relative` and the `.fixed` class has the direction 0'ed.
+Where `.container` has a position of `relative` and the `.fixed` class has the direction 0'ed. Meaning, if fixed is on the left, `left: 0;` needs to be set.
 
 With HTML setup, just create a new instance of ScrollFix
 
