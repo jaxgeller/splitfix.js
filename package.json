@@ -1,0 +1,23 @@
+{
+  "name": "splitfix.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "watchify -s SplitFix -t babelify splitfix.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaxgeller/splitfix.js.git"
+  },
+  "author": "Jackson Geller <jacksongeller@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaxgeller/splitfix.js/issues"
+  },
+  "homepage": "https://github.com/jaxgeller/splitfix.js#readme",
+  "devDependencies": {
+    "babelify": "^6.4.0",
+    "watchify": "^3.5.0"
+  }
+}
