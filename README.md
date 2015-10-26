@@ -59,5 +59,16 @@ Since this is a specific effect, the way in which it's implemented is opinionate
 </div>
 ```
 
-Where `.container` has a position of relative and the `.fixed` class has the direction zero'ed.
+Where `.container` has a position of `relative` and the `.fixed` class has the direction 0'ed.
 
+With HTML setup, just create a new instance of ScrollFix
+
+```javascript
+new ScrollFix(fixedEl, notFixedEl, container);
+```
+
+SplitFix is intended to be a split layout, so for responsive design there will be a point where you dont want it fixed anymore. Call the same function above with a fourth parameter like so
+
+```javascript
+new ScrollFix(fixedEl, notFixedEl, container, 960);
+```
