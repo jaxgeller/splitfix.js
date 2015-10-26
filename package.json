@@ -1,8 +1,8 @@
 {
   "name": "splitfix.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist.js",
   "scripts": {
     "dev": "watchify -s SplitFix -t babelify splitfix.js -o dist.js",
     "release": "browserify -t babelify -t uglifyify -s SplitFix -o dist.min.js"
